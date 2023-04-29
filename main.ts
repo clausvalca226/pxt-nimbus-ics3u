@@ -99,11 +99,11 @@ namespace storage {
         if (_disabled)
             return;
 
-        flashlog.beginRow();
+        flashstorage.beginRow();
         for (const kv of data) {
-            flashlog.logData(kv.key, kv.value);
+            flashstorage.logData(kv.key, kv.value);
         }
-        flashlog.endRow();
+        flashstorage.endRow();
     }
 
     /**
@@ -133,6 +133,6 @@ namespace storage {
         // TODO:/note intentionally does not have group, as having the same group for all
         // blocks in a category causes the group to be elided.
         init();
-        flashlog.setSerialMirroring(on);
+        flashstorage.setSerialMirroring(on);
     }
 }
