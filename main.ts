@@ -1,0 +1,1 @@
+uBit.log.logData(MSTR("test"), MSTR("test"));
