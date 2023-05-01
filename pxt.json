@@ -6,7 +6,8 @@
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "flashstorage.cpp"
     ],
     "testFiles": [
         "test.ts"
