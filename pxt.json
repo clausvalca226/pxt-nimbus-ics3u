@@ -3,10 +3,10 @@
     "version": "0.0.2",
     "description": "",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+	"flashstorage.cpp": "https://github.com/clausvalca226/pxt-nimbus-ics3u"
     },
     "files": [
-        "main.ts",
-	"flashstorage.cpp"
+        "main.ts"
     ],
 }
