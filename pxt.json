@@ -3,8 +3,7 @@
     "version": "0.0.2",
     "description": "",
     "dependencies": {
-        "core": "*",
-	"flashstorage":"*"
+        "core": "*"
     },
     "files": [
         "main.ts",
