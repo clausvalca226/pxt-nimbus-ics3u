@@ -4,20 +4,6 @@
 //% color="#378273"
 namespace storage {
 
-    let onStorageFullHandler: () => void;
-    let _disabled = false;
-
-    export class KeyValue {
-        public value: string;
-        public key: string;
-        constructor(
-            key: string,
-            value: any
-        ) {
-            this.value = "" + value;
-        }
-    }
-
     /* A key and value to save to flash storage
      * @param key the key to set
      * @param value the value to set.
@@ -29,7 +15,7 @@ namespace storage {
     //% blockId=storagecreatekeyvalue
     //% group="micro:bit (V2)"
     //% weight=80 help=storage/storedata
-    export function storedata(key: string, value: any): {
+    export function storedata(key: string, value: any) {
         let temp = "" + value;
         flashstorage.storeData(key, value);
     }
