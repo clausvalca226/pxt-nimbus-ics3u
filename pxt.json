@@ -9,4 +9,12 @@
         "main.ts",
         "flashstorage.cpp"
     ],
+    "public": true,
+    "targetVersions": {
+        "target": "5.0.12",
+        "pxt": "8.0.7"
+    },
+    "disablesVariants": [
+        "mbdal"
+    ]
 }
