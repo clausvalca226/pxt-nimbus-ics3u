@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-	"flashstorage.cpp": "https://github.com/clausvalca226/pxt-nimbus-ics3u"
+	"flashstorage.cpp": "github:clausvalca226/flashstorage"
     },
     "files": [
         "main.ts"
