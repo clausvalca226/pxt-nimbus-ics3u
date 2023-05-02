@@ -29,9 +29,9 @@ namespace storage {
     //% blockId=storagecreatekeyvalue
     //% group="micro:bit (V2)"
     //% weight=80 help=storage/storedata
-    export function storedata(key: string, value: any): KeyValue {
+    export function storedata(key: string, value: any): {
         let temp = "" + value;
-        return flashstorage.storeData(key, value);
+        flashstorage.storeData(key, value);
     }
     
     /* Retrieve value
