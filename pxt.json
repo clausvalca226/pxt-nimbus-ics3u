@@ -2,18 +2,17 @@
     "name": "nimbus-ics3u",
     "description": "",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "flashstorage": "github:clausvalca226/flashstorage#1f3eba6c2868b331a65db5b631aecb6ea37d901e"
     },
     "files": [
         "main.ts"
     ],
-    "testFiles": [],
     "targetVersions": {
         "target": "5.0.12",
-        "targetId": "microbit"
+        "pxt": "8.0.7"
     },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    "disablesVariants": [
+        "mbdal"
+    ]
 }
