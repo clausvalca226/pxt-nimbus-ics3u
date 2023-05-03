@@ -1,6 +1,5 @@
 {
     "name": "nimbus-ics3u",
-    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*"
@@ -8,7 +7,6 @@
     "files": [
         "main.ts"
     ],
-    "public": true,
     "targetVersions": {
         "target": "5.0.12",
         "pxt": "8.0.7",
